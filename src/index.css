@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #35231f;
+  background: #fff5e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --peach: #f5c3a5;
+  --cream: #fff5e9;
+  --brown: #572d20;
+  --blue: #3286c7;
+  --pink: #f27a9b;
+  --light-peach: #fbe0d0;
+  --dark-text: #35231f;
+  --muted-text: #8b756c;
+  --white: #ffffff;
+  --lavender: #e7ebff;
+  --soft-blue: #edf6ff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(circle at top left, rgba(245,195,165,0.28), transparent 30%), radial-gradient(circle at bottom right, rgba(50,134,199,0.1), transparent 30%), var(--cream);
+  color: var(--dark-text);
+}
+
+#root { min-height: 100vh; }
+
+a { text-decoration: none; }
+
+button, input, textarea, select { font: inherit; }
+
+img { display: block; max-width: 100%; }
+
+h1, h2, h3, h4 { margin: 0; color: var(--brown); }
+
+p { margin: 0; }
+
+::selection { background: rgba(242, 122, 155, 0.24); }
